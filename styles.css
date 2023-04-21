@@ -5,6 +5,11 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 /* CONTAINER */
 
 .container {
@@ -162,4 +167,18 @@ button {
 
 .call-button {
   border: 2px solid #f9faf8;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1f2937;
+  padding: 50px 100px;
+}
+
+.footer div {
+  color: #f9faf8;
 }
