@@ -71,7 +71,7 @@ button {
   width: 500px;
   padding: 100px;
   background-color: gray;
-  color: white;
+  color: #f9faf8;
   font-weight: 500;
 }
 
@@ -133,4 +133,33 @@ button {
   color: #1f2937;
   font-size: 25px;
   font-weight: 900;
+}
+
+/* CALL-SECTION */
+
+.call-section {
+  padding: 80px 220px;
+}
+
+.call-container {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  border-radius: 15px;
+}
+
+.call-text {
+  color: #f9faf8;
+}
+
+.call-text-main {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.call-button {
+  border: 2px solid #f9faf8;
 }
